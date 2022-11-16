@@ -230,6 +230,7 @@
             justify-content: center;
             margin: 0px;
             padding: 10px;
+            background-color: var(--azul-dnc);
         }
 
         footer .linha2 a{
@@ -293,5 +294,16 @@
 
             .checkboxItens label{
                 font-size: 17px;
+            }
+
+            /* Footer */
+
+            footer .linha1{
+                flex-direction: column;
+            }
+
+            footer .endereco{
+                width: 95%;
+                margin-bottom: 20px;
             }
         }
